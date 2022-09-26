@@ -1,0 +1,93 @@
+body{
+    font-family: Poppins, sans-serif;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main h1{
+    color: white;
+}
+
+.card-items{
+    background: rgba(173, 173, 173, 0.39);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+
+.time{
+    text-align: center;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.buttons > button{
+    width: 5.5em;
+    height: 3.3em;
+    margin: 8px;
+}
+
+.start{
+    background-color: forestgreen;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.start:hover{
+    background-color: rgb(25, 100, 25);
+    transition: 0.3s;
+}
+
+.pause{
+    background-color: rgb(124, 124, 124);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.pause:hover{
+    background-color: rgb(83, 83, 83);
+    transition: 0.3s;
+}
+
+.stop{
+    background-color: rgb(199, 0, 0);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.stop:hover{
+    background-color: rgb(138, 0, 0);
+    transition: 0.3s;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h1{
+    color: white;
+    padding: 5px;
+    font-size: 16px
+}
+
